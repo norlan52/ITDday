@@ -1,0 +1,106 @@
+body {
+  background-image: url("blueground.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #0A1F44;
+  height: 850px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 20px 20px;
+}
+
+
+.container a {
+  background-color: lightgray;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  flex: 1;
+  margin: 0 5px;
+  border-radius: 5px;
+  text-decoration: none;
+ 
+}
+
+.header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.itd {
+  display: inline-block;
+  padding: 12px 35px;
+  background: rgba(70, 130, 180, 0.15);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.white {
+   color: black;   
+}
+
+.black {
+   color: white;   
+}
+
+h1 {
+	font-size: 80px;
+	font-family: 'Comic Neue', cursive;
+	color: #FFD700;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;  
+}
+
+.gallery img{
+  width: 250px;
+  height: 180px;
+  transition: 0.3s;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery img:hover {
+ transform: scale(1.05);	
+}
+
+.design {
+ background-color: white;
+ border: 2px solid #00ffff;
+ padding: 20px;
+ border-radius: 15px;
+ width: 80%;
+ margin: auto;
+}
+
+.head {
+	text-align: center;
+    margin-top: 80px;
+}
+
+.about {
+  display: inline-block;
+  padding: 12px 35px;
+  background: rgba(70, 130, 180, 0.15);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;	
+}
+
+
